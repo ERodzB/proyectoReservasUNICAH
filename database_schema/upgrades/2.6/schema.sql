@@ -1,6 +1,5 @@
 # noinspection SqlNoDataSourceInspectionForFile
-ALTER TABLE `custom_attributes`
-  ADD COLUMN `admin_only` TINYINT(1) UNSIGNED;
+
 
 ALTER TABLE `user_preferences`
   CHANGE COLUMN `value` `value` TEXT;
@@ -44,9 +43,7 @@ CREATE TABLE `resource_accessories` (
 		DEFAULT CHARACTER SET utf8;
 
 
-ALTER TABLE `custom_attributes` ADD COLUMN `secondary_category` TINYINT(2) UNSIGNED;
-ALTER TABLE `custom_attributes` ADD COLUMN `secondary_entity_ids` VARCHAR(2000);
-ALTER TABLE `custom_attributes` ADD COLUMN `is_private` TINYINT(1) UNSIGNED;
+
 
 ALTER TABLE `resource_groups`
   ADD COLUMN `public_id` VARCHAR(20);
@@ -92,35 +89,6 @@ INSERT INTO custom_attribute_entities (custom_attribute_id, entity_id) (SELECT
 ALTER TABLE custom_attributes
   DROP COLUMN `entity_id`;
 
-ALTER TABLE `quotas`
-  ADD COLUMN `enforced_days` VARCHAR(15);
-ALTER TABLE `quotas`
-  ADD COLUMN `enforced_time_start` TIME;
-ALTER TABLE `quotas`
-  ADD COLUMN `enforced_time_end` TIME;
-ALTER TABLE `quotas`
-  ADD COLUMN `scope` VARCHAR(25);
-
-ALTER TABLE `resources`
-  ADD COLUMN `enable_check_in` TINYINT(1) UNSIGNED NOT NULL DEFAULT 0;
-ALTER TABLE `resources`
-  ADD COLUMN `auto_release_minutes` SMALLINT UNSIGNED;
-ALTER TABLE `resources` ADD INDEX( `auto_release_minutes`);
-ALTER TABLE `resources`
-  ADD COLUMN `color` VARCHAR(10);
-ALTER TABLE `resources`
-  ADD COLUMN `allow_display` TINYINT(1) UNSIGNED NOT NULL DEFAULT 0;
-
-ALTER TABLE `reservation_instances`
-  ADD COLUMN `checkin_date` DATETIME;
-ALTER TABLE `reservation_instances` ADD INDEX( `checkin_date`);
-ALTER TABLE `reservation_instances`
-  ADD COLUMN `checkout_date` DATETIME;
-ALTER TABLE `reservation_instances`
-  ADD COLUMN `previous_end_date` DATETIME;
-ALTER TABLE `reservation_series`
-  ADD COLUMN `last_action_by` MEDIUMINT(8) UNSIGNED;
-
 DROP TABLE IF EXISTS `reservation_guests`;
 CREATE TABLE `reservation_guests` (
 		`reservation_instance_id` INT UNSIGNED        NOT NULL,
@@ -136,15 +104,6 @@ CREATE TABLE `reservation_guests` (
 )
 		ENGINE = InnoDB
 		DEFAULT CHARACTER SET utf8;
-
-ALTER TABLE `users`
-  ADD COLUMN `credit_count` DECIMAL(7, 2) UNSIGNED;
-ALTER TABLE `resources`
-  ADD COLUMN `credit_count` DECIMAL(7, 2) UNSIGNED;
-ALTER TABLE `resources`
-  ADD COLUMN `peak_credit_count` DECIMAL(7, 2) UNSIGNED;
-ALTER TABLE `reservation_instances`
-  ADD COLUMN `credit_count` DECIMAL(7, 2) UNSIGNED;
 
 
 DROP TABLE IF EXISTS `peak_times`;

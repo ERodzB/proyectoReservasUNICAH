@@ -13,7 +13,7 @@ CREATE TABLE `user_session` (
 	ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARACTER SET utf8;
 
-ALTER TABLE `time_blocks` ADD COLUMN `day_of_week` SMALLINT(5) unsigned;
+
 
 DROP TABLE IF EXISTS `reminders`;
 CREATE TABLE `reminders` (
@@ -42,4 +42,4 @@ CREATE TABLE `reservation_reminders` (
   	ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARACTER SET utf8;
 
-ALTER TABLE `users` ADD COLUMN `default_schedule_id` smallint(5) unsigned;
+insert into dbversion values('2.4', now());

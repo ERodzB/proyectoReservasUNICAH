@@ -1,5 +1,4 @@
-ALTER TABLE `schedules` ADD COLUMN `admin_group_id` SMALLINT(5) unsigned;
-ALTER TABLE `schedules` ADD CONSTRAINT `schedules_groups_admin_group_id` FOREIGN KEY (`admin_group_id`) REFERENCES `groups`(`group_id`) ON DELETE SET NULL;
+
 
 DROP TABLE IF EXISTS `saved_reports`;
 CREATE TABLE `saved_reports` (
@@ -14,4 +13,4 @@ CREATE TABLE `saved_reports` (
 	ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARACTER SET utf8;
 
-ALTER TABLE `resources` ADD COLUMN `sort_order` TINYINT(2) unsigned;
+insert into dbversion values('2.3', now());

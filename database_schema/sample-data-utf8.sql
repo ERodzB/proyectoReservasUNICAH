@@ -37,7 +37,7 @@ insert into accessories (`accessory_id`, `accessory_name`, `accessory_quantity`)
 truncate table user_resource_permissions;
 insert into user_resource_permissions values (1,1,1,0),(1,2,1,0),(2,1,1,0),(2,2,1,0);
 
-truncate table custom_attributes;
+
 insert into custom_attributes(`custom_attribute_id`,`display_label`,`display_type`,`attribute_category`,`validation_regex`,`is_required`,`possible_values`) VALUES
   (1, 'Test Number', 1, 1, null, false, null),
   (2, 'Test String', 1, 1, null, false, null),
