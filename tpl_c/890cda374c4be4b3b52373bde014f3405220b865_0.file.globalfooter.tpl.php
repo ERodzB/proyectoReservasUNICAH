@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-03-03 01:46:28
+/* Smarty version 3.1.30, created on 2020-03-10 03:03:33
   from "C:\xampp\htdocs\nw\proyectoReservasUNICAH\tpl\globalfooter.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5e5da8e4c873d7_95152159',
+  'unifunc' => 'content_5e66f5755ab9e7_89693556',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '9aae0719d8a230ff1ef766fb75b14ded4ab667eb' => 
+    '890cda374c4be4b3b52373bde014f3405220b865' => 
     array (
       0 => 'C:\\xampp\\htdocs\\nw\\proyectoReservasUNICAH\\tpl\\globalfooter.tpl',
-      1 => 1568861498,
+      1 => 1583797666,
       2 => 'file',
     ),
   ),
@@ -20,15 +20,16 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5e5da8e4c873d7_95152159 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5e66f5755ab9e7_89693556 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 
 	</div><!-- close main-->
 
 	<footer class="footer navbar">
-		&copy; 2019 <a href="http://www.twinkletoessoftware.com">Twinkle Toes Software</a> <br/><a href="http://www.bookedscheduler.com">Booked Scheduler v<?php echo $_smarty_tpl->tpl_vars['Version']->value;?>
-</a>
+		&copy; 2020 <a href="http://www.unicah.edu">Universidad Catolica de Honduras</a> <br/>
+		<a href="https://www.google.com/search?q=gestion+de+proyectos&rlz=1C1CHBF_esHN874HN874&oq=gestion+de+pro&aqs=chrome.0.0j69i57j0l6.2765j0j7&sourceid=chrome&ie=UTF-8">Gestión De Proyectos Informáticos</a>
+		
 	</footer>
 
 	<?php echo '<script'; ?>

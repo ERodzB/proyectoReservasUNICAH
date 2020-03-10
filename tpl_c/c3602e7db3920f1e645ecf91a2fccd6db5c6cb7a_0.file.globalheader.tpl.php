@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-03-03 01:46:28
+/* Smarty version 3.1.30, created on 2020-03-10 02:59:03
   from "C:\xampp\htdocs\nw\proyectoReservasUNICAH\tpl\globalheader.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5e5da8e4c55532_23110201',
+  'unifunc' => 'content_5e66f467551330_86238745',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '5e726063029147e9614b2c23a315108db01440ac' => 
+    'c3602e7db3920f1e645ecf91a2fccd6db5c6cb7a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\nw\\proyectoReservasUNICAH\\tpl\\globalheader.tpl',
-      1 => 1568861498,
+      1 => 1583794554,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5e5da8e4c55532_23110201 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5e66f467551330_86238745 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 
@@ -232,7 +232,7 @@ echo Pages::DASHBOARD;?>
 </a></li>
                         <li class="dropdown" id="navMyAccountDropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0][0]->SmartyTranslate(array('key'=>"MyAccount"),$_smarty_tpl);?>
- <b
+<b
                                         class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li id="navProfile"><a href="<?php echo $_smarty_tpl->tpl_vars['Path']->value;

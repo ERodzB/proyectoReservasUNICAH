@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-03-03 01:46:28
+/* Smarty version 3.1.30, created on 2020-03-10 02:43:38
   from "C:\xampp\htdocs\nw\proyectoReservasUNICAH\tpl\javascript-includes.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5e5da8e4c79b87_96477418',
+  'unifunc' => 'content_5e66f0ca47ca81_39767765',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '6ea66c5e19d4dbb6bcb18ff9ea6e87a68adb80df' => 
+    'b000accf9d5a93a14458b80fdcd4da95a82997cd' => 
     array (
       0 => 'C:\\xampp\\htdocs\\nw\\proyectoReservasUNICAH\\tpl\\javascript-includes.tpl',
-      1 => 1568861498,
+      1 => 1583784874,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5e5da8e4c79b87_96477418 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5e66f0ca47ca81_39767765 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <?php if ($_smarty_tpl->tpl_vars['UseLocalJquery']->value) {?>

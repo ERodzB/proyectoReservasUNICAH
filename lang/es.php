@@ -461,7 +461,7 @@ class es extends en_gb
         $strings['MinimumCapacity'] = 'Capacidad mínima';
         $strings['Color'] = 'Color';
         $strings['Available'] = 'Disponible';
-        $strings['Unavailable'] = 'No disponible';
+        $strings['Unavailable'] = 'No Disponible';
         $strings['Hidden'] = 'Oculto';
         $strings['ResourceStatus'] = 'Estado del recurso';
         $strings['CurrentStatus'] = 'Estado actual';
@@ -488,7 +488,7 @@ class es extends en_gb
         $strings['Dates'] = 'Fechas';
         $strings['More'] = 'Más';
         $strings['ResourceAvailability'] = 'Disponibilidad del recurso';
-        $strings['UnavailableAllDay'] = 'No disponible en todo el día';
+        $strings['UnavailableAllDay'] = ' ';
         $strings['AvailableUntil'] = 'Disponible hasta las';
         $strings['AvailableBeginningAt'] = 'Disponible desde las';
         $strings['AvailableAt'] = 'Disponible en';

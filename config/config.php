@@ -51,9 +51,9 @@ $conf['settings']['logout.url'] = ''; 	      					// the url to be directed to a
 $conf['settings']['default.homepage'] = '1'; 	      			// the default homepage to use when new users register (1 = Dashboard, 2 = Schedule, 3 = My Calendar, 4 = Resource Calendar)
 
 $conf['settings']['schedule']['use.per.user.colors'] = 'false'; 		// color reservations by user
-$conf['settings']['schedule']['show.inaccessible.resources'] = 'true';  // whether or not resources that are inaccessible to the user are visible
+$conf['settings']['schedule']['show.inaccessible.resources'] = 'false';  // whether or not resources that are inaccessible to the user are visible
 $conf['settings']['schedule']['reservation.label'] = '{name}';    		// format for what to display on the reservation slot label.  Available properties are: {name}, {title}, {description}, {email}, {phone}, {organization}, {position}, {startdate}, {enddate} {resourcename} {participants} {invitees} {reservationAttributes}. Custom attributes can be added using att with the attribute id. For example {att1}
-$conf['settings']['schedule']['hide.blocked.periods'] = 'false';    	// if blocked periods should be hidden or shown
+$conf['settings']['schedule']['hide.blocked.periods'] = 'true';    	// if blocked periods should be hidden or shown
 $conf['settings']['schedule']['update.highlight.minutes'] = '0';    // if set, will show reservations as 'updated' for a certain amount of time
 
 /**
