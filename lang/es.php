@@ -75,7 +75,7 @@ class es extends en_gb
         $strings['AllUpcomingReservations'] = 'Todas las reservas próximas';
         $strings['ShowHide'] = 'Mostrar/Ocultar';
         $strings['Error'] = 'Error';
-        $strings['ReturnToPreviousPage'] = 'Volver a la página anterior';
+        $strings['ReturnToPreviousPage'] = 'Volver al Calendario';
         $strings['UnknownError'] = 'Error desconocido';
         $strings['InsufficientPermissionsError'] = 'No tienes permiso para acceder a este recurso';
         $strings['MissingReservationResourceError'] = 'No se ha seleccionado un recurso';
@@ -461,7 +461,7 @@ class es extends en_gb
         $strings['MinimumCapacity'] = 'Capacidad mínima';
         $strings['Color'] = 'Color';
         $strings['Available'] = 'Disponible';
-        $strings['Unavailable'] = 'No Disponible';
+        $strings['Unavailable'] = 'No disponible';
         $strings['Hidden'] = 'Oculto';
         $strings['ResourceStatus'] = 'Estado del recurso';
         $strings['CurrentStatus'] = 'Estado actual';
@@ -488,10 +488,10 @@ class es extends en_gb
         $strings['Dates'] = 'Fechas';
         $strings['More'] = 'Más';
         $strings['ResourceAvailability'] = 'Disponibilidad del recurso';
-        $strings['UnavailableAllDay'] = ' ';
+        $strings['UnavailableAllDay'] = 'No disponible en todo el día';
         $strings['AvailableUntil'] = 'Disponible hasta las';
-        $strings['AvailableBeginningAt'] = 'Disponible desde las';
-        $strings['AvailableAt'] = 'Disponible en';
+        $strings['AvailableBeginningAt'] = 'Disponible hasta el ';
+        $strings['AvailableAt'] = 'Disponible el';
         $strings['AllResourceTypes'] = 'Todos los tipos de recursos';
         $strings['AllResourceStatuses'] = 'Todos los estados de los recursos';
         $strings['AllowParticipantsToJoin'] = 'Permitir a los participantes unirse';
@@ -739,7 +739,7 @@ class es extends en_gb
         $strings['MissedCheckout'] = 'Missed Checkout';
         $strings['Utilization'] = 'Uso';
         $strings['SpecificTime'] = 'Specific Time';
-        $strings['ReservationSeriesEndingPreference'] = 'When my recurring reservation series is ending';
+        $strings['ReservationSeriesEndingPreference'] = ' Cuando termina mi serie de reservas recurrentes';
         $strings['NotAttending'] = 'Not Attending';
         $strings['ViewAvailability'] = 'Ver Disponibilidad';
         $strings['ReservationDetails'] = 'Detalles de la Reserva';
@@ -764,7 +764,7 @@ class es extends en_gb
         $strings['InstallOptionsWarning'] = 'Las siguientes opciones probablemente no funcionen en un entorno alojado. Si estás instalando en un entorno alojado, usa las herramientas de asistencia de MySQL para completar estos pasos.';
         $strings['CreateDatabase'] = 'Crear la base de datos';
         $strings['CreateDatabaseUser'] = 'Crear el usuario de la base de datos';
-        $strings['PopulateExampleData'] = 'Importar datos de ejemplo. Crea la cuenta de administrador: admin/password y la cuenta de usuario: user/password';
+        $strings['PopulateExampleData'] = 'Importar datos de la UNICAH';
         $strings['DataWipeWarning'] = 'Aviso: esto borrará los datos existentes';
         $strings['RunInstallation'] = 'Ejecutar la instalación';
         $strings['UpgradeNotice'] = 'Estás actualizando desde la versión <b>%s</b> a la versión <b>%s</b>';
@@ -862,8 +862,8 @@ class es extends en_gb
         $strings['Help'] = 'Ayuda';
         $strings['Administration'] = 'Administración';
         $strings['About'] = 'Acerca de';
-        $strings['Bookings'] = 'Reservas';
-        $strings['Schedule'] = 'Planificación';
+        $strings['Bookings'] = 'Planificación';
+        $strings['Schedule'] = 'Calendario de Reservas ';
         $strings['Account'] = 'Cuenta';
         $strings['EditProfile'] = 'Editar mi perfil';
         $strings['FindAnOpening'] = 'Encontrar un hueco';

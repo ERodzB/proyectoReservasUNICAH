@@ -149,8 +149,9 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
                 <ul class="nav navbar-nav">
                     {if $LoggedIn}
                         <li id="navDashboard"><a href="{$Path}{Pages::DASHBOARD}">{translate key="Dashboard"}</a></li>
+                         <li id="navBookings"><a href="{$Path}{Pages::SCHEDULE}">{translate key="ScheduleCalendar"}</a></li>
                         <li class="dropdown" id="navMyAccountDropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{translate key="MyAccount"}<b
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{translate key="MyAccount"} <b
                                         class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li id="navProfile"><a href="{$Path}{Pages::PROFILE}">{translate key="Profile"}</a></li>
@@ -172,11 +173,11 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
                             </ul>
                         </li>
                         <li class="dropdown" id="navScheduleDropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{translate key="Schedule"} <b
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{translate key="Bookings"} <b
                                         class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li id="navBookings"><a href="{$Path}{Pages::SCHEDULE}">{translate key="Bookings"}</a>
-                                </li>
+                                <!--<li id="navBookings"><a href="{$Path}{Pages::SCHEDULE}">{translate key="ScheduleCalendar"}</a>
+                                </li>-->
                                 <li id="navMyCalendar"><a
                                             href="{$Path}{Pages::MY_CALENDAR}">{translate key="MyCalendar"}</a></li>
                                 <li id="navResourceCalendar"><a
@@ -304,7 +305,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     {if $ShowScheduleLink}
-                        <li class="dropdown" id="navScheduleDropdown">
+                        {*<li class="dropdown" id="navScheduleDropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">{translate key="Schedule"} <b
                                         class="caret"></b></a>
                             <ul class="dropdown-menu">
@@ -313,7 +314,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
                                 <li id="navViewCalendar"><a href="view-calendar.php">{translate key='ViewCalendar'}</a>
                                 </li>
                             </ul>
-                        </li>
+                        </li>*}
                     {/if}
                     {if $CanViewAdmin}
                         <li class="dropdown" id="navHelpDropdown">
@@ -353,6 +354,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
                             </ul>
                         </li>
                     {/if}
+                    {if $CanViewAdmin}
                     <li class="dropdown" id="navHelpDropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">{translate key="Help"} <b
                                     class="caret"></b></a>
@@ -364,9 +366,13 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
                             <li id="navAbout"><a href="{$Path}help.php?ht=about">{translate key=About}</a></li>
                         </ul>
                     </li>
+                    {/if}
                     {if $LoggedIn}
                         <li id="navSignOut"><a href="{$Path}logout.php">{translate key="SignOut"}</a></li>
                     {else}
+                        
+                        <li id="navViewSchedule"><a href="view-schedule.php">{translate key='ScheduleCalendar'}</a></li>
+                        <li id="navViewCalendar"><a href="view-calendar.php">{translate key='ResourceCalendar'}</a>
                         <li id="navLogIn"><a href="{$Path}index.php">{translate key="LogIn"}</a></li>
                     {/if}
                 </ul>

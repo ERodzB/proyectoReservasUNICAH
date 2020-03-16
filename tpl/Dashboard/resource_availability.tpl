@@ -32,7 +32,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
         <div class="header">{translate key=Available}</div>
         {foreach from=$Schedules item=s}
             {assign var=availability value=$Available[$s->GetId()]}
-            {if $availability|count > 0}
+            {if $availability > 0}
             <h5>{$s->GetName()}</h5>
             {foreach from=$availability item=i}
                 <div class="availabilityItem">
@@ -68,7 +68,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
 
         {foreach from=$Schedules item=s}
             {assign var=availability value=$Unavailable[$s->GetId()]}
-            {if $availability|count > 0}
+            {if $availability > 0}
             <h5>{$s->GetName()}</h5>
             {foreach from=$availability item=i}
                 <div class="availabilityItem">
@@ -98,9 +98,9 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
         <div class="header">{translate key=UnavailableAllDay}</div>
         {foreach from=$Schedules item=s}
             {assign var=availability value=$UnavailableAllDay[$s->GetId()]}
-            {if $availability|count > 0}
+            {if $availability > 0}
             <h5>{$s->GetName()}</h5>
-            {foreach from=$Uavailability item=i}
+            {foreach from=$availability item=i}
                 <div class="availabilityItem">
                     <div class="col-xs-12 col-sm-5">
                         <i resource-id="{$i->ResourceId()}" class="resourceNameSelector fa fa-info-circle"></i>
@@ -124,5 +124,6 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
             {/foreach}
             {/if}
         {/foreach}
+        
     </div>
 </div>

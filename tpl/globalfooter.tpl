@@ -20,9 +20,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
 	</div><!-- close main-->
 
 	<footer class="footer navbar">
-		&copy; 2020 <a href="http://www.unicah.edu">Universidad Catolica de Honduras</a> <br/>
-		<a href="https://www.google.com/search?q=gestion+de+proyectos&rlz=1C1CHBF_esHN874HN874&oq=gestion+de+pro&aqs=chrome.0.0j69i57j0l6.2765j0j7&sourceid=chrome&ie=UTF-8">Gestión De Proyectos Informáticos</a>
-		
+		&copy; 2020 <a href="https://unicah.edu/">UNICAH - SCJ </a> <br/><a href="">Gestion de Proyectos Informaticos</a>
 	</footer>
 
 	<script type="text/javascript">

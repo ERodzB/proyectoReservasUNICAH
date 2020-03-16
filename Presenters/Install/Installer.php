@@ -61,7 +61,7 @@ class Installer
         $create_user->Replace('localhost', $hostname);
         $create_user->Replace('password', $database_password);
 
-        $populate_sample_data = new MySqlScript(ROOT_DIR . 'database_schema/sample-data-utf8.sql');
+        $populate_sample_data = new MySqlScript(ROOT_DIR . 'database_schema/unicah-data.sql');
         $populate_sample_data->Replace('booked', $database_name);
 
         $create_schema = new MySqlScript(ROOT_DIR . 'database_schema/create-schema.sql');
@@ -79,7 +79,7 @@ class Installer
             $results[] = $this->ExecuteScript($hostname, $database_name, $this->user, $this->password, $create_user);
         }
 
-        $upgradeResults = $this->Upgrade();
+        //$upgradeResults = $this->Upgrade();
 
         $results[] = $this->ExecuteScript($hostname, $database_name, $this->user, $this->password, $populate_data);
 
@@ -91,7 +91,7 @@ class Installer
 			$results[] = $this->ExecuteScript($hostname, $database_name, $this->user, $this->password, $populate_sample_data);
 		}
 
-        $results = array_merge($results, $upgradeResults);
+    $results = array_merge($results/*, $upgradeResults*/);
         return $results;
     }
 

@@ -82,11 +82,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
                                 {if $RepeatMonthlyType neq ''}
                                     ({$RepeatMonthlyType})
                                 {/if}
-                                {if count($RepeatWeekdays) gt 0}
-                                    <br/>
-                                    <label>{translate key='RepeatDaysPrompt'}</label>
-                                    {foreach from=$RepeatWeekdays item=day}{translate key=$DayNames[$day]} {/foreach}
-                                {/if}
+                              
                                 <br/><label>{translate key='RepeatUntilPrompt'}</label> {formatdate date=$RepeatTerminationDate}
                             </div>
                         {/if}
@@ -94,7 +90,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
 
                     <div class="col-xs-12">
                         <div class="pull-left">
-                            <label>{translate key='Resources'}</label> {$ResourceName}
+                            <label>{translate key='Location'}</label> {$ResourceName}
                             <input id="primaryResourceId" type="hidden" value="{$ResourceId}"/>
                             <div id="additionalResources" class="inline">
                                 {foreach from=$AvailableResources item=resource}
