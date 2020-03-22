@@ -321,8 +321,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <span class="no-show">Configuration</span>
                                 <span class="fa fa-cog"></span>
-                                {if $ShowNewVersion}<span class="badge badge-new-version new-version"
-                                                          id="newVersionBadge">{translate key=NewVersion}</span>{/if}
+                            
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
@@ -348,7 +347,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
                                 {if $ShowNewVersion}
                                     <li class="divider new-version"></li>
                                     <li id="navNewVersion" class="new-version">
-                                        <a href="https://www.bookedscheduler.com/whatsnew">{translate key=WhatsNew}</a>
+                                        <a href="https://www.bookedscheduler.com/whatsnew"></a>
                                     </li>
                                 {/if}
                             </ul>

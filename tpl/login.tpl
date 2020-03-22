@@ -44,7 +44,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
 			  action="{$smarty.server.SCRIPT_NAME}">
 			<div id="login-box" class="col-xs-12 default-box">
 				<div class="col-xs-12 login-icon">
-					{html_image src="$LogoUrl?2.6" alt="$Title"}
+					<img src="../Web/img/booked_login.png" alt="UNICAH Logo">
 				</div>
 				{if $ShowUsernamePrompt}
 					<div class="col-xs-12">

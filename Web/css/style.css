@@ -40,7 +40,7 @@ h1 {
 	border: 1px solid #bbb;
 	border-top: 1px solid #ccc;
 	border-left: 1px solid #ccc;
-	font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	line-height: 130%;
 	text-decoration: none;
@@ -92,7 +92,7 @@ div.error, div.warning, div.success, #loginError {
 	margin: 5px auto 5px auto;
 	padding: 6px 25px;
 	font-size: 14px;
-	font-family: sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 }
 
@@ -191,7 +191,7 @@ form.login, form.forgot, form.register, #reservationForm, form.box-form, #activa
 	-khtml-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
-	background: #fff;
+	background: rgb(4, 184, 255);
 	border: 1px solid #e5e5e5;
 	-moz-box-shadow: rgba(200, 200, 200, 1) 0 4px 5px;
 	-webkit-box-shadow: rgba(200, 200, 200, 1) 0 4px 5px;
@@ -456,7 +456,7 @@ div.notification-status {
 
 #help p.setting span {
 	color: green;
-	font-family: Courier;
+	font-family: 'Raleway', sans-serif;
 	display: block;
 }
 

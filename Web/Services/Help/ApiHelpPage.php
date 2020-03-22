@@ -57,7 +57,7 @@ class ApiHelpPage
 						margin-bottom: 4px;
 					}
 					.code {
-						font-family: courier;
+						font-family: 'Raleway', sans-serif;
 					}
 					#security {
 						background-color: #FFFF99;

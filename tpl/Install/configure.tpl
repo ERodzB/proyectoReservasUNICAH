@@ -51,7 +51,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
 		{if $ShowManualConfig}
 			{translate key=ConfigUpdateFailure}
 
-			<div style="font-family: courier; border: solid 1px #666;padding: 10px;margin-top: 20px;background-color: #eee">
+			<div style="font-family: 'Raleway', sans-serif;; border: solid 1px #666;padding: 10px;margin-top: 20px;background-color: #eee">
 				&lt;?php<br/>
 				error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT);<br/>
 				{$ManualConfig|nl2br}

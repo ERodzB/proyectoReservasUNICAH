@@ -49,7 +49,7 @@
   }
 }
 .booked-embedded-calendar-container {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 .booked-calendar-event {
   border: solid 1px #D5DED9;
@@ -69,7 +69,7 @@
 }
 .booked-agenda-date {
   font-size: .9em;
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 .booked-agenda-date a,
 .booked-agenda-date a:visited {

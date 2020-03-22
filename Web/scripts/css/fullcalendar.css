@@ -88,7 +88,7 @@ body .fc { /* extra precedence to overcome jqui */
 	font-size: 1em;
 	text-align: center;
 	overflow: hidden;
-	font-family: "Courier New", Courier, monospace;
+	font-family: 'Raleway', sans-serif;
 
 	/* don't allow browser text-selection */
 	-webkit-touch-callout: none;
