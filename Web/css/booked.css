@@ -71,9 +71,8 @@
   }
   html,
   body {
-
     height: 97.2%;
-    max-width: 99vw;
+    max-width: 100vw;
   }
   body {
     padding-bottom: 0px;
@@ -1016,6 +1015,12 @@
   #page-dashboard .panel-heading {
     background-color: #9BC2C2;
     color: #fff;
+  }
+  #page-dashboard,#page-manage-schedules,#page-manage-resources,#page-manage-accessories,#page-manage-groups,#page-manage-announcements,#page-manage-attributes,#page-generate-report,#page-saved-reports,#page-common-reports{
+    padding: 1em;
+  }
+  #page-schedule,#page-my-calendar,#page-manage-reservations,#page-calendar,#page-manage-blackouts,#page-manage-quotas,#page-manage-users{
+    padding: 2em;
   }
   #page-dashboard .panel-heading,
   #page-dashboard .panel {
