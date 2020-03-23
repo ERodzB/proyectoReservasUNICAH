@@ -71,7 +71,9 @@
   }
   html,
   body {
+
     height: 97.2%;
+    max-width: 99vw;
   }
   body {
     padding-bottom: 0px;
