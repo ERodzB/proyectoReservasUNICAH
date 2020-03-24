@@ -20,7 +20,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
 	</div><!-- close main-->
 
 	<footer class="footer navbar">
-		&copy; 2020 <a href="https://unicah.edu/">UNICAH - SCJ </a> <br/><a href="">Gestion de Proyectos Informaticos</a>
+		&copy; 2020 <a href="https://unicah.edu/">UNICAH - SCJ </a> <br/><a href="help.php?ht=about">Gestion de Proyectos Informaticos</a>
 	</footer>
 
 	<script type="text/javascript">
