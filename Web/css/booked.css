@@ -1067,7 +1067,7 @@
     padding: 3px;
     font-style: italic;
     color: #000;
-    background-color: #FFF8E7;
+    background-color: rgb(209, 214, 253);
     border-bottom: 1px solid #E9E9E9;
   }
   .upcomingReservationsDashboard .reservation {
@@ -1104,7 +1104,12 @@
     padding: 1px;
     display: inline-block;
     margin-right: 2px;
-    background-color: rgb(209, 214, 253);
+    width: 150px;
+    line-height: 35px;
+    border: 1px solid #E7DB73;
+    text-align: center;
+    background-color: #FFF8E7;
+    font-weight: bolder;
   }
   .availabilityDashboard .resourceName a {
     color: #2f4480;
@@ -1119,9 +1124,9 @@
     padding: 10px 0;
   }
   .availabilityDashboard .availabilityItem .btn {
-    background-color: rgb(59, 97, 221);
+    background-color: rgb(0, 14, 168);
     color: #fff;
-    border-color: #458c45;
+    border-color: #53577F;
     padding: 10px 15px;
   }
   .availabilityDashboard .availabilityItem .btn:hover {
