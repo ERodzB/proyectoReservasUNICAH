@@ -718,7 +718,6 @@
     vertical-align: middle;
     position: relative;
     padding-left: 5px;
-    color: #f60;
     font-weight: bold;
   }
   .checkbox label::before {
