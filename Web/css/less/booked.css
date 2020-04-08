@@ -1182,7 +1182,7 @@ td.resdate {
 tr.today td.resdate,
 td.today {
   color: #FFFFFF !important;
-  background-color: #5199d1 !important;
+  background-color: #14006e !important;
 }
 #reservations .mobile {
   font-size: 0.8em;
@@ -1192,7 +1192,7 @@ td.today {
   width: auto;
 }
 #reservations .mobile td.today {
-  background-color: #5199d1 !important;
+  background-color: #14006e !important;
 }
 #reservations .mobile .slot {
   padding: 2px;
@@ -1223,7 +1223,7 @@ div.reservable {
   color: #333 !important;
 }
 .reserved {
-  background-color: #408AD2 !important;
+  background-color: rgb(0, 128, 255) !important;
   color: #fff !important;
 }
 td.reserved {
@@ -1242,7 +1242,7 @@ td.dropped {
   animation: droppedpulse 1s infinite;
 }
 .reserved.hilite {
-  background-color: #59A8EF !important;
+  background-color: rgb(0, 128, 255) !important;
 }
 .reserved.mine {
   background-color: #6F9BAE !important;

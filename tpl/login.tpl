@@ -90,10 +90,10 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
 
 				{if $ShowUsernamePrompt &&  $ShowPasswordPrompt}
 				<div class="col-xs-12 {if $ShowRegisterLink}col-sm-6{/if}">
-					<div class="checkbox">
+					{*<div class="checkbox">
 						<input id="rememberMe" type="checkbox" {formname key=PERSIST_LOGIN}>
 						<label for="rememberMe">{translate key=RememberMe}</label>
-					</div>
+					</div>*}
 				</div>
 				{/if}
 

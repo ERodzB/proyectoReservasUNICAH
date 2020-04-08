@@ -175,8 +175,8 @@ $conf['settings']['password']['upper.and.lower'] = 'false';
 $conf['settings']['reservation.labels']['ics.summary'] = '{title}';
 $conf['settings']['reservation.labels']['ics.my.summary'] = '{title}';
 $conf['settings']['reservation.labels']['rss.description'] = '<div><span>Start</span> {startdate}</div><div><span>End</span> {enddate}</div><div><span>Organizer</span> {name}</div><div><span>Description</span> {description}</d  iv>';
-$conf['settings']['reservation.labels']['my.calendar'] = '{resourcename} {title}';
-$conf['settings']['reservation.labels']['resource.calendar'] = '{name}';
+$conf['settings']['reservation.labels']['my.calendar'] = '{title} - {att1}';
+$conf['settings']['reservation.labels']['resource.calendar'] = '{title} - {att1}';
 $conf['settings']['reservation.labels']['reservation.popup'] = '{description} Haz clic para ver más información'; // Format for what to display in reservation popups. Possible values: {name} {dates} {title} {resources} {participants} {accessories} {description} {attributes} {pending} {duration}. Custom attributes can be added using att with the attribute id. For example {att1}
 /**
  * Security header settings
