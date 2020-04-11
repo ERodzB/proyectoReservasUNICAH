@@ -1,0 +1,24 @@
+dia jueves 12 de Marzo
+
+visitamos la biblioteca y a la Lic Lourdes, quien es la encargada y el contacto directo para resolver cualquier duda o pregunta que tengamos al respecto, o sobre el manejo de reservas actual de la biblioteca, le preguntamos cual es la cantidad de los equipos con los que cuentan exactamente.
+
+DATA SHOW: 1 en cada Audiovisual
+HDMI: 4
+VGA: 1 en cada Audiovisual
+Apple TV: 1
+Audiovisuales con DTR: Solamente 1, el 3B
+
+	Capacidad        Nombre del Audiovisual
+1.	30  		 Audiovisual 1A
+2.	30   		 Audiovisual 1B
+3.	30 		 Audiovisual 2
+4.	50 		 Audiovisual 3A
+5.	50		 Audiovisual 3B
+6.	25		 Audiovisual 4
+7.	80		 Audiovisual Externo 1
+8.	80		 Audiovisual Externo 2
+9.      200               Salon Maya
+10.     500               Aula Magna
+
+al solicitarle la capacidad, nos detallo que estos son variables, ya que dependera de las sillas o mesas que las personas que quieran reservar metan dentro del espacio asignado entonces dependera de la distribucion del espacio.
+nos solicito que la capacidad no la coloquemos en el formato de reservas y que quieren algo muy parecido al formato que estan utilizando.
