@@ -138,7 +138,7 @@ $conf['settings']['plugins']['PostReservation'] = '';
 /**
  * Installation settings
  */
-$conf['settings']['install.password'] = '12345';
+$conf['settings']['install.password'] = 'ReservasUNICAH';
 /**
  * Pages
  */
