@@ -288,12 +288,12 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
                                 <div id="resourceGroups"></div>
                             </div>
                             <div id="resettable">
-                                <div class="form-group col-xs-12">
+                                {*<div class="form-group col-xs-12">
                                     <label for="maxCapactiy">{translate key=MinimumCapacity}</label>
                                     <input type='number' min='0' id='maxCapactiy' size='5' maxlength='5'
                                            class="form-control input-sm" {formname key=MAX_PARTICIPANTS}
                                            value="{$MaxParticipantsFilter}"/>
-                                </div>
+                                </div>*}
 
                                 <div class="form-group col-xs-12">
                                     <label for="resourceType">{translate key=ResourceType}</label>
